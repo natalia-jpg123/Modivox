@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Playwrite NZ Basic", cursive;
+}
+
+
+
+
+
+/* header */
+
+header {
+    width: 95%;
+    height: 100px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+    margin-top: 20px;
+    box-shadow: 0 0 0.3123rem rgba(0, 0, 0, 0.25);
+    z-index: 1000;
+    position: fixed;
+    background-color: white;
+    top: 0;
+}
+
+.left-div {
+    width: 40%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 20px;
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #595959;
+    font-size: 20px;
+    padding: 10px 18px;
+    border-radius: 20px;
+    margin-left: 10px;
+}
+
+nav a:hover {
+    background-color: #e5e5e5;
+}
+
+nav a.active {
+    background-color: #E6A8D7;
+    color: white;
+}
+
+
+.right-div {
+    width: 40%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: end; 
+}
+
+.material-symbols-outlined {
+    height: 22px;
+    color: #595959;
+}
+
+.right-div svg {
+    display: none;
+}
+
+.right-div h3 {
+    height: 22px;
+    margin: 0;
+    margin-right: 20px;
+    color: #595959;
+}
+
+.right-div button {
+    width: 160px;
+    height: 45px;
+    font-size: 20px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #E6A8D7;
+    color: white;
+    font-family: "Playwrite NZ Basic", cursive;
+}
+
+.right-div button:hover {
+    background-color: #ce95c0;
+}
+
+
+/* SECTION 1*/
+
+
+section {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.section-01 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
+}
+
+.section-01 h1 {
+    margin-top: 150px;
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+
+
+.section-01 hr{
+    width: 60%;
+    height: 3px;
+    background: #E6A8D7;
+    border: 0;
+}
+
+.section-01 p {
+    margin-top: 70px;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.left-link {
+    margin-right: 10px;
+    text-decoration: none;
+    background-color:#E6A8D7;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+
+.right-link {
+    color:#E6A8D7;
+    font-weight: 600;
+}
+
+
+
+
+
+
+.section-02 {
+    background-color: #E6A8D7;
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+article {
+    width: 350px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px;
+}
+
+article img {
+    width: 300px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+article h3 {
+    color:#E6A8D7;
+    font-weight: 800;
+}
+
+article p {
+    color:#595959;
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+
+/* SECTION 3 */
+
+.section-03 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.section-03 h3 {
+    color:#212529;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.section-03 h1 {
+    color:#E6A8D7;
+    font-weight: 500;
+}
+
+.section-03 p {
+    font-size: 25px;
+    color:#212529;
+    width: 70%;
+    text-align: center;
+}
+
+.section-03 .container {
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 25px;
+    column-gap: 60px;
+}
+
+.container .card {
+    border:0.5px solid rgba(128, 128, 128, 0.309);
+    border-radius: 20px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 60px 19px 60px 0;
+}
+
+.card h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color:#E6A8D7;
+    text-align: center;
+}
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+}
+
+.div-up {
+    width: 100%;
+    background-color: rgb(19, 19, 19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+}
+.div-up h4 {
+    color: white;
+    font-weight: 400; 
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.div-up span {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.div-up h3 {
+    color:#E6A8D7;
+    margin: 0 20px;
+}
+
+.div-up img {
+    width: 200px;
+}
+
+
+
+
+.div-down {
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.div-down h3 {
+    color:#a29d9d;
+    margin: 18px 0;
+    margin-left: 18%;
+}
+
+.div-down a {
+    color:#E6A8D7;
+    margin: 18px 8px;
+}
+
+.div-down div {
+    color:#a29d9d;
+    margin: 18px 0;
+}
+
+
+
+
+
+
+@media (max-width: 1443px) {
+    .left-div {
+        width: 70%;
+    }
+}
+
+@media (max-width: 1066px) {
+    .right-div h3 {
+        display: none;
+    }
+    .right-div span {
+        display: none;
+    }
+    .right-div {
+        width: 20%;
+    }
+    .right-div button {
+        font-size: 18px;
+    }
+    .left-link {
+        font-size: 20px;
+    }
+    .right-link {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 450px) {
+    .logo {
+        margin-left: 20px;
+    }
+    nav {
+        display: none;
+    }
+    .right-div button {
+        display: none;
+    }
+    .right-div svg {
+        display: block;
+        width: 40px;
+        height: 40px;
+        color:#595959;
+        margin-right: 30px;
+    }
+
+    .section-01 {
+        height: 750px;
+    }
+
+    .left-link {
+        font-size: 25px;
+    }
+    .right-link {
+        font-size: 25px;
+    }
+
+    .section-02 {
+        flex-direction: column;
+        height: auto;
+        padding: 50px 0;
+    }
+    .first-article {
+        margin-bottom: 50px;
+    }
+
+    .section-03 h3 {
+        text-align: center;
+    }
+    .section-03 h1 {
+        font-size: 50px;
+    }
+
+    .section-03 p {
+        font-size: 20px;
+        width: 85%;
+        margin-bottom: 60px;
+    }
+
+    .section-03 .container {
+        grid-template-rows: repeat(3, 280px);
+        grid-template-columns: repeat(2, 180px);
+        column-gap: 25px;
+    }
+
+    .div-up h3{
+        font-size: 17px;
+    }
+    .div-down h3 {
+        margin-left: 0;
+        font-size: 13px;
+    }
+    .div-down {
+        display: flex;
+        justify-content: space-between;
+    }
+}
